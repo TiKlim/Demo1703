@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Demo1703251.HistoryWindow"
+		x:CompileBindings="False"
+		WindowStartupLocation="CenterScreen"
+		MinHeight="450"
+		MinWidth="800"
+        Title="История">
+	<Grid RowDefinitions="Auto,*">
+		<!--Заголовок-->
+		<TextBlock Text="История"
+				   FontWeight="Bold"
+				   FontSize="17"
+				   Name="titleTB"
+				   VerticalAlignment="Center"
+				   Grid.Row="0"
+				   Margin="10"/>
+
+		<Button Content="Назад"
+				Grid.Row="0"
+				HorizontalAlignment="Right"
+				Margin="10"
+				Name="back"/>
+
+		<ListBox Name="PPLB"
+				 Grid.Row="1">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderBrush="Gray"
+							BorderThickness="0 0 0 1">
+					<Grid RowDefinitions="*,*">
+						<TextBlock Text="{Binding ProductsNavigation.ProductsName}"/>
+						<TextBlock Text="{Binding ProductCount}"/>
+					</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
+</Window>

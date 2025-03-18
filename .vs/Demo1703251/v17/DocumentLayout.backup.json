@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\historywindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\historywindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\historywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\historywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\editpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\editpartnerwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\editpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\editpartnerwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|c:\\users\\blockchain\\source\\repos\\demo1703251\\demo1703251\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2383695-35F1-4CFA-AF95-2D48FE7454C3}|Demo1703251\\Demo1703251.csproj|solutionrelative:demo1703251\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoryWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\HistoryWindow.axaml",
+              "RelativeDocumentMoniker": "Demo1703251\\HistoryWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\HistoryWindow.axaml",
+              "RelativeToolTip": "Demo1703251\\HistoryWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T12:49:06.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoryWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\HistoryWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Demo1703251\\HistoryWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\HistoryWindow.axaml.cs",
+              "RelativeToolTip": "Demo1703251\\HistoryWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:49:05.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditPartnerWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\EditPartnerWindow.axaml",
+              "RelativeDocumentMoniker": "Demo1703251\\EditPartnerWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\EditPartnerWindow.axaml",
+              "RelativeToolTip": "Demo1703251\\EditPartnerWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T12:31:04.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditPartnerWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\EditPartnerWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Demo1703251\\EditPartnerWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\EditPartnerWindow.axaml.cs",
+              "RelativeToolTip": "Demo1703251\\EditPartnerWindow.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:19:42.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Demo1703251\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\MainWindow.axaml",
+              "RelativeToolTip": "Demo1703251\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T12:21:18.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Demo1703251\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\source\\repos\\Demo1703251\\Demo1703251\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Demo1703251\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:25:40.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

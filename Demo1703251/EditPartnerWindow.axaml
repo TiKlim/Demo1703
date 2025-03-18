@@ -1,0 +1,97 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Demo1703251.EditPartnerWindow"
+		x:CompileBindings="False"
+		WindowStartupLocation="CenterScreen"
+		MinHeight="450"
+		MinWidth="800"
+        Title="Информация о партнёре">
+	<Grid Name="partnerGrid"
+		  RowDefinitions="*,*,*,*,*,*,*,*">
+		<!--Заголовок-->
+		<TextBlock Text="Информация о партнёре"
+				   FontWeight="Bold"
+				   FontSize="17"
+				   Name="titleTB"
+				   VerticalAlignment="Center"
+				   Grid.Row="0"
+				   Margin="10"/>
+		
+		<Button Content="Назад"
+				Grid.Row="0"
+				HorizontalAlignment="Right"
+				Margin="10"
+				Name="back"/>
+
+		<DockPanel Grid.Row="1"
+				   Margin="5">
+			<TextBlock Text="Наименование:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersName}"
+					 Watermark="Наименование"
+					 Height="20"
+					 Name="nameTB"/>
+		</DockPanel>
+		
+		<DockPanel Grid.Row="2"
+				   Margin="5">
+			<TextBlock Text="ФИО директора:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersDirectorName}"
+					 Watermark="Иванов Иван Иванович"
+					 Height="20"
+					 Name="directorNameTB"/>
+		</DockPanel>
+
+		<DockPanel Grid.Row="3"
+				   Margin="5">
+			<TextBlock Text="Адрес:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersAdress}"
+					 Watermark="Город, улица, номер дома"
+					 Height="20"
+					 Name="adressTB"/>
+		</DockPanel>
+
+		<DockPanel Grid.Row="4"
+				   Margin="5">
+			<TextBlock Text="Номер телефона:"
+					   VerticalAlignment="Center"/>
+			<MaskedTextBox Text="{Binding PartnersPhone}"
+						   Mask="+7(000)000-00-00"
+						   Height="20"
+						   Name="phoneTB"/>
+		</DockPanel>
+
+		<DockPanel Grid.Row="5"
+				   Margin="5">
+			<TextBlock Text="Электронная почта:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersEmail}"
+					 Watermark="aaaa@aaa.aa"
+					 Height="20"
+					 Name="emailTB"/>
+		</DockPanel>
+
+		<Button Content="История"
+				Name="toHistory"
+				IsVisible="False"
+				Grid.Row="6"/>
+
+		<Button Content="Сохранить"
+				Grid.Row="7"
+				Margin="10"
+				Name="saveButton"/>
+		
+		<TextBlock Name="attention"
+				   IsVisible="False"
+				   Foreground="Red"
+				   FontWeight="Bold"
+				   HorizontalAlignment="Right"
+				   VerticalAlignment="Center"
+				   Grid.Row="7"/>
+	</Grid>
+</Window>

@@ -1,0 +1,85 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Demo1703251.EditProductWindow"
+		x:CompileBindings="False"
+		WindowStartupLocation="CenterScreen"
+		MinHeight="450"
+		MinWidth="800"
+        Title="Информация о продукте">
+	<Grid Name="partnerGrid"
+			RowDefinitions="*,*,*,*,*,*,*,*">
+		<!--Заголовок-->
+		<TextBlock Text="Информация о продукте"
+				   FontWeight="Bold"
+				   FontSize="17"
+				   Name="titleTB"
+				   VerticalAlignment="Center"
+				   Grid.Row="0"
+				   Margin="10"/>
+
+		<Button Content="Назад"
+				Grid.Row="0"
+				HorizontalAlignment="Right"
+				Margin="10"
+				Name="back"/>
+
+		<DockPanel Grid.Row="1"
+				   Margin="5">
+			<TextBlock Text="Наименование:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersName}"
+					 Watermark="Наименование"
+					 Height="20"
+					 Name="nameTB"/>
+		</DockPanel>
+
+		<DockPanel Grid.Row="2"
+				   Margin="5">
+			<TextBlock Text="Тип продукции:"
+					   VerticalAlignment="Center"/>
+			<ComboBox Name="typeCB">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding}"/>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+		</DockPanel>
+
+		<DockPanel Grid.Row="3"
+				   Margin="5">
+			<TextBlock Text="Артикул:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersAdress}"
+					 Watermark="Артикул"
+					 Height="20"
+					 Name="articulTB"/>
+		</DockPanel>
+
+		<DockPanel Grid.Row="4"
+				   Margin="5">
+			<TextBlock Text="Минимальная стоимость для партнёра:"
+					   VerticalAlignment="Center"/>
+			<TextBox Text="{Binding PartnersAdress}"
+					 Watermark="0"
+					 Height="20"
+					 Name="costTB"/>
+		</DockPanel>
+
+		<Button Content="Сохранить"
+				Grid.Row="7"
+				Margin="10"
+				Name="saveButton"/>
+
+		<TextBlock Name="attention"
+				   IsVisible="False"
+				   Foreground="Red"
+				   FontWeight="Bold"
+				   HorizontalAlignment="Right"
+				   VerticalAlignment="Center"
+				   Grid.Row="7"/>
+	</Grid>
+</Window>
